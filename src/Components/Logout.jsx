@@ -4,14 +4,11 @@ import { useNavigate } from 'react-router-dom'
 
 export const Logout = () => {
     const navigate=useNavigate()
-    const logout=()=>{
         localStorage.removeItem("token")
         navigate("/",replace)
         alert("you are logged out ")
-    }
+    
   return (
-    <div>
-        <button onClick={logout}>Logout</button>
-    </div>
+  <></>
   )
 }
