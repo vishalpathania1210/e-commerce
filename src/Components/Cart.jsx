@@ -36,7 +36,7 @@ export const Cart = () => {
                 <img
                   src={item.images[0]}
                   alt={item.title}
-                  className="w-full h-64 object-cover rounded-md"
+                  className="flex justify-items-end-safe h-64 object-cover rounded-md"
                 />
                 <h3 className="text-xl font-semibold text-gray-800">{item.title}</h3>
                 <p className="text-gray-600">Price: ${item.price}</p>

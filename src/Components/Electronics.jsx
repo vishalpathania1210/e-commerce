@@ -20,7 +20,7 @@ export const Electronics = () => {
 
  
   const addtocart = (item) => {
-    dispatch({ type: "ADD_ITEM", payload: { superman: item } });
+    dispatch({ type: "ADD_ITEM", payload: { item: item } });
     setAddedItems((prev) => new Set(prev.add(item.id)));  
   };
 
